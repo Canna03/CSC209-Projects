@@ -1,8 +1,0 @@
-#
-# test2.txt - Test wrong amount of fg arguments
-#
-/bin/echo -e tsh\076 ./myspin 5 \046
-./myspin 5 &
-
-/bin/echo -e tsh\076 fg %1 a
-fg %1 a
