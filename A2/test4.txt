@@ -1,0 +1,5 @@
+#
+# test4.txt - Calling from a sub directory
+#
+/bin/echo -e tsh\076 ./sub/myspin 3
+./sub/myspin 3

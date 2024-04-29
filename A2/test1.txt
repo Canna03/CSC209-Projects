@@ -1,0 +1,50 @@
+#
+# test1.txt - Test max limit of jobs
+#
+/bin/echo -e tsh\076 ./myspin 16 \046
+./myspin 16 &
+
+/bin/echo -e tsh\076 ./myspin 15 \046
+./myspin 15 &
+
+/bin/echo -e tsh\076 ./myspin 14 \046
+./myspin 14 &
+
+/bin/echo -e tsh\076 ./myspin 13 \046
+./myspin 13 &
+
+/bin/echo -e tsh\076 ./myspin 12 \046
+./myspin 12 &
+
+/bin/echo -e tsh\076 ./myspin 11 \046
+./myspin 11 &
+
+/bin/echo -e tsh\076 ./myspin 10 \046
+./myspin 10 &
+
+/bin/echo -e tsh\076 ./myspin 9 \046
+./myspin 9 &
+
+/bin/echo -e tsh\076 ./myspin 8 \046
+./myspin 8 &
+
+/bin/echo -e tsh\076 ./myspin 7 \046
+./myspin 7 &
+
+/bin/echo -e tsh\076 ./myspin 6 \046
+./myspin 6 &
+
+/bin/echo -e tsh\076 ./myspin 5 \046
+./myspin 5 &
+
+/bin/echo -e tsh\076 ./myspin 4 \046
+./myspin 4 &
+
+/bin/echo -e tsh\076 ./myspin 3 \046
+./myspin 3 &
+
+/bin/echo -e tsh\076 ./myspin 2 \046
+./myspin 2 &
+
+/bin/echo -e tsh\076 jobs
+jobs

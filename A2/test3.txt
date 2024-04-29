@@ -1,0 +1,8 @@
+#
+# test3.txt - Test quitting the shell while a background process is still running
+#
+/bin/echo -e tsh\076 ./myspin 6 \046
+./myspin 6 &
+
+/bin/echo -e tsh\076 quit
+quit
